@@ -1,20 +1,21 @@
+/* Sets the base style for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Adds background color to the body of the page */
 body {
     background-color: #d9dcd6;
 }
-
+/* Gives you a font family with colored text and background */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Defines how the h1 element within the header is styled */
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -60,12 +61,12 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Defines a utility rule to pull content to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Defines a utility rule to pull content to the right */
 .float-right {
     float: right;
     margin-left: 25px;
